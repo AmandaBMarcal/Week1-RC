@@ -1,0 +1,192 @@
+/* NYT CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+a {
+  color: inherit;
+}
+
+/* Header */
+/* Top Links */
+
+header {
+  clear: both;
+}
+
+.topLinksAll section {
+  float: left;
+}
+
+/* Section H1 */
+.topLinksAll > .leftLinks {
+  width: 50%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.topLinksAll > .leftLinks > i, a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.topLinksAll > .rightLinks {
+  width: 50%;
+  padding-left: 38%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* h1 */
+h1 {
+  width: 55%;
+  height: 110px;
+  background-image: url(nytScreenShot.png);
+  background-position: center;
+  margin-left: 22%;
+}
+
+/* <!-- List Under h1 --> */
+
+.liUnH1 {
+  border-bottom: 3px solid black;
+}
+
+.nav {
+  margin-bottom: 26px;
+}
+
+.liUnH1 ul li {
+  margin-left: 31%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.liUnH1 ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 1%;
+  margin-bottom: 10px;
+  float: left;
+}
+
+/* Nav Bar */
+
+section nav ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul li {
+  text-decoration: none;
+  float: left;
+  list-style-type: none;
+  margin-left: 2%;
+}
+
+/* Column A */
+.colA {
+  height: 700px;
+  width: 20%;
+  padding: 0 1%;
+  float: left;
+}
+
+/* Section A1 */
+.colA section {
+  float: left;
+}
+
+/* Section A2 */
+.colA section > section {
+  float: left;
+}
+
+/* Column B */
+.colB {
+  height: 700px;
+  width: 40%;
+  padding: 0 1%;
+  float: left;
+}
+
+/* Section B1 */
+.colB section {
+  float: left;
+}
+
+/* Section B2 */
+.colB section > section {
+  float: left;
+}
+
+/* Section B3 */
+.colB section > section > section {
+  float: left;
+}
+
+/* Column C */
+.colC {
+  float: left;
+  padding: 0 1%;
+  width: 40%;
+}
+
+/* h4 */
+h4 {
+  text-align: center;
+}
+
+/* Top 2 Cols */
+.topSec {
+  width: 100%;
+  float: left;
+}
+
+.topCols {
+  width: 50%;
+  padding: 0 1%;
+  float: left;
+}
+.tc {
+  border-right: 1px solid grey;
+}
+.topCols section img {
+  float: right;
+}
+
+
+
+
+
+/* Mid Row */
+.midRow {
+  width: 100%;
+  float: left;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.smallBox {
+  width: 50%;
+  float: left;
+}
+
+.lastRows {
+  width: 100%;
+  float: left;
+}
+
+.midRow > .smallBox:first-of-type {
+  border-right: 1px solid gray;
+}

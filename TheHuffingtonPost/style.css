@@ -1,0 +1,105 @@
+/* Huffington Post CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  height: 70px;
+  border: 1px solid black;
+  color: white;
+  background-color: rgb(49, 112, 97);
+}
+header section {
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+
+header section h1 {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 20px;
+  margin-top: 0%;
+  text-align: center;
+}
+
+.smallBox {
+  width: 20%;
+  padding-top: 20px;
+}
+
+.smallBox i {
+  padding-top: 0px;
+}
+
+/* NAV */
+nav ul {
+  clear: both;
+}
+
+header nav ul li {
+  font-size: 20px;
+  float: left;
+  padding: 2.8%;
+  list-style: none;
+  padding-top: 5px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Section A */
+body section h2 {
+  font-size: 70px;
+  text-align: center;
+  margin: 60px 10% 60px 10%;
+}
+
+.puertoRico {
+  margin: 0px 0% 30px 33%;
+}
+
+/* Section Main */
+section > section > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Section B */
+
+.secB {
+  width: 100%;
+  float: left;
+}
+
+.secB section {
+  float: left;
+  width: 25%;
+  padding-left: 2.5%;
+}
+
+.imgSecB {
+  border-top: 3px solid rgb(24, 103, 86);
+}
+
+/* Section C */
+
+.secC {
+  width: 100%;
+}
+
+.secC section {
+  float: left;
+  width: 25%;
+  padding-left: 2.5%;
+}
+
+.imgSecC {
+  border-top: 3px solid rgb(24, 103, 86);
+}

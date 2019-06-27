@@ -1,0 +1,139 @@
+/* Boston.com CSS */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/* Header */
+header {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+}
+
+header img {
+  height: 45px;
+  background-color: black;
+  margin: 1px 6% 1px 8%;
+  float: left;
+}
+
+ header nav ul li {
+  font-size: 15px;
+  list-style-type: none;
+  margin: 18px 2% 1px 2%;
+  color: white;
+  float: left;
+}
+
+/* Column 1 */
+
+.h3 {
+  width: 50%;
+  margin: 50px 0px 0px 8%;
+  border-bottom: 2px solid red;
+  float: left;
+}
+
+.bigSec {
+  width: 50%;
+  height: 500px;
+  margin: 0px 0 0 8%;
+  float: left;
+}
+
+.leftBody {
+  width: 70%;
+  float: left;
+}
+
+/* Top Left Section */
+
+.bigSec > h3 > section > section > img {
+  width: 30%;
+}
+
+.topLeft {
+  width: 100%;
+  margin: 0;
+  float: left;
+}
+
+.topLeft p {
+  width: 84%;
+  text-align: center;
+}
+
+/* Bottom Sec 1 */
+.bottomSec {
+  width: 82%;
+  float: left;
+}
+
+.bottomLeft {
+  width: 50%;
+  float: left;
+}
+
+.bottomRight {
+  width: 50%;
+  float: left;
+}
+
+.rightNav {
+  width: 30%;
+  height: 500px;
+  float: left;
+}
+
+.rightNav ul li {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.rightNav h3 {
+  margin-bottom: 5px;
+}
+
+/* Right Sec */
+.rightSec {
+  width: 20%;
+  height: 500px;
+  margin-left: 10%;
+  float: left;
+}
+
+/* Page 2 */
+.lastLeftSec h3 {
+  border-top: 2px solid red;
+}
+
+.lastLeftSec {
+  width: 23%;
+  height: 400px;
+  margin: 20px 0px 0px 8%;
+  float: left;
+}
+
+.lastRightNav ul {
+  width: 30%;
+  margin-top: 2.7%;
+  padding-left: 0px;
+  border-top: 2px solid red;
+  float: left;
+}
+
+.lastRightNav ul li {
+  list-style-type: none;
+  border-bottom: 1px solid grey;
+  padding: 15px;
+  float: left;
+}

@@ -1,0 +1,79 @@
+html{
+  font-family: 'Lato', sans-serif;
+  padding: 3% 5%;
+}
+/* Header */
+h1{
+  color: rgb(226,52,57);
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+/* Food Blog */
+h3{
+  color: rgb(54,42,49);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+/* Nav Bar */
+nav ul li a{
+  color: rgb(228,230,233);
+  font-size: 20px;
+  font-weight: 300;
+}
+ul{
+  padding: 0%;
+  margin-bottom: 70px;
+}
+ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+/* Section A */
+/* Date */
+section h4{
+  color: rgb(228,230,233);
+  font-size: 30px;
+  font-weight:300;
+  margin-bottom: 0px
+}
+section h2{
+  color: rgb(54,42,49);
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+/* Pseudo Selector */
+p::first-letter {
+  font-size: 120px;
+  font-weight: 100;
+  color: gray;
+  display: block;
+  float: left;
+  padding-right: 20px;
+}
+}
+/* Footer Nav */
+footer nav ul li a{
+  color: rgb(223, 15, 59);
+  display: inline;
+  letter-spacing: normal;
+  border-right: 1px solid grey;
+  text-decoration: none;
+}
+/* Next Button */
+p + a{
+  border-bottom: 1px solid silver;
+  margin: 0 0 40px 93%;
+  text-decoration: none;
+  display: block;
+}
+.sec1{
+  border-bottom: 1px solid grey;
+}
+.sec2{
+  border-bottom: 1px solid grey;
+
+}
